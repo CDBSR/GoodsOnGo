@@ -17,6 +17,7 @@ import SettingsIcon from '@mui/icons-material/SettingsOutlined';
 import LogoutIcon from '@mui/icons-material/Logout';
 import LocationOnIcon from '@mui/icons-material/LocationOnOutlined';
 import ClickAwayListener from '@mui/material/ClickAwayListener';
+import Navbar from './Navbar';
 
 
 const initialCategories =
@@ -133,6 +134,8 @@ const Header = () => {
           </div>
         </div>
       </header>
+
+      <Navbar />
     </div>
   )
 }

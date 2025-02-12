@@ -9,3 +9,6 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 .cursor {cursor: pointer;}
+.bg-g {background: #1e2d58 !important;}
+.text-g{color: #1e2d58 !important;}
+.text-w {color: white !important;}
