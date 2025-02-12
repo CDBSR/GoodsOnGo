@@ -3,12 +3,9 @@ header {
     width: 100%;
     height: auto;
     margin: auto;
-    padding: 30px 0px ;
+    padding: 10px;
 }
 
-.container-fluid {
-    padding: 0 45px;
-}
 header .headersearch {
     width: 100%;
     height: 40px;
@@ -17,8 +14,8 @@ header .headersearch {
     border-radius: 5px;
 }
 header .headersearch .selectdropWrapper {
-    width: 30%;
-    font-size: 15px;
+    width: 35%;
+    font-size: 13px;
     font-weight: 500;
     position: relative;
 }
@@ -47,3 +44,31 @@ header .headersearch .search .searchIcon {
     opacity: .6;
     margin-left: -15px
 }
+header .countryWrapper .selectdropWrapper  {
+    width: 150px !important;
+    height: 35px !important;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    font-weight: 400;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.2);
+}
+header .countryWrapper .selectdropWrapper .openSelect {
+    width: 100%;
+    color: #1e2d58;
+    
+}
+header .countryWrapper .selectdrop{left: 0px !important; }
+
+header .header-Tabs{padding-left: 40px;}
+header .header-Tabs li {position: relative; margin-left: 5px;}
+header .header-Tabs li span {font-size: 15px; cursor: pointer;}
+header .header-Tabs li span img {margin-right: 10px;}
+header .header-Tabs li span .badge {width: 25px; height: 25px; color:white; font-weight: 400; position: absolute; top: -20px; left: 10px;}
+
+.dropDownMenu {position: absolute; top: 40px; right: 0; width: 150px; height: auto; background: #fff; box-shadow: 0 3px 6px rgba(0 0 0 / 20%); padding: 10px 0px;}
+.dropDownMenu li {width: 100% !important; list-style: none; margin: 0 !important;}
+.dropDownMenu li button {width: 100% !important; text-align: left !important; justify-content: flex-start !important; color: #252525; text-transform: capitalize; font-size: 12px !important;padding: 8px 10px !important;}
+.dropDownMenu li button:hover{background: #f1f1f1;}
+.dropDownMenu li button svg{opacity: 0.8; margin-right: 8px !important;}
